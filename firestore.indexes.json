@@ -1,0 +1,21 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "asignaciones",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {"fieldPath": "conductor_id", "order": "ASCENDING"},
+        {"fieldPath": "estado", "order": "ASCENDING"}
+      ]
+    },
+    {
+      "collectionGroup": "alertas",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {"fieldPath": "conductor_id", "order": "ASCENDING"},
+        {"fieldPath": "fecha_hora", "order": "DESCENDING"}
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.runtime_packages/
+work/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*service-account*.json
+*serviceAccount*.json
+firebase-adminsdk-*.json
+secrets/
+
+# Editors and OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

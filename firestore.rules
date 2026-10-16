@@ -1,0 +1,10 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // La aplicación usa Firebase Admin SDK en su servidor Flask. El acceso de
+    // los clientes del navegador se mantiene bloqueado.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

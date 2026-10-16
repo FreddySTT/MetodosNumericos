@@ -1,0 +1,9 @@
+Flask>=3.0,<4.0
+firebase-admin>=6.5,<8.0
+PyMySQL>=1.1,<2.0
+pyodbc>=5.1,<6.0
+python-dotenv>=1.0,<2.0
+reportlab>=4.2,<5.0
+opencv-python>=4.8,<5.0
+scipy>=1.11,<2.0
+numpy>=1.26,<3.0
